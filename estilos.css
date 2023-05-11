@@ -1,0 +1,50 @@
+.image-container {
+    position: relative;
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .seleccionado {
+    position:absolute;
+    height: 200px;
+    width: 200px;
+  }
+
+  #img1 {
+    top: 0px;
+    left: 0px;
+  }
+
+  #img2 {
+    top: 100px;
+    left: 100px;
+  }
+
+  #img3 {
+    top: 200px;
+    left: 200px;
+  }
+
+  #img4 {
+    top: 300px;
+    left: 300px;
+  }
+
+  #img5 {
+    top: 400px;
+    left: 400px;
+  }
+
+  
+  .seleccionado:hover {
+    border: 2px solid black;
+  }
+
+  .seleccionado:hover ~ img {
+    opacity: 0.2;
+
+  }
+  
+  
